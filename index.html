@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toé</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <span>Tic-Tac-Toé</span>
+        </a>
+        <nav class="navbar">
+            <a href="https://en.wikipedia.org/wiki/Tic-tac-toe" target="_blank"><button type="button" class="btn">about game</button></a>
+            <button type="button" class="btn" onclick="tech()">techStack</button>
+            <a href="#"><button type="button" class="btn">source code</button></a>
+            <a href="#"><button type="button" class="btn">contact me</button></a>
+        </nav>
+        <nav class="nav">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </nav>
+    </header>
+
+    <div class="info" id="info">
+        <h1 class="turn">Player 1 Turn</h1>
+    </div>
+
+    <div class="box">
+        <div class="block" id="00"></div>
+        <div class="block" id="01"></div>
+        <div class="block" id="02"></div>
+        <div class="block" id="10"></div>
+        <div class="block" id="11"></div>
+        <div class="block" id="12"></div>
+        <div class="block" id="20"></div>
+        <div class="block" id="21"></div>
+        <div class="block" id="22"></div>
+    </div> 
+
+    <div class="resetgame">
+        <div class="p1">Player 1:&nbsp;&nbsp;&nbsp; 0</div>
+        <button class="reset">Reset Game</button>
+        <a href="index.html"><button class="resetscore">Reset Scores</button></a>
+        <div class="p2">Player 2:&nbsp;&nbsp;&nbsp; 0</div>
+    </div>
+
+    <div id="result" class="result">
+        <div class="content">
+            <div class="header">
+                <h2>Game Over</h2>
+            </div>
+            <div class="body">
+                <p class="text"></p>
+                <button class="reset">Reset Game</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="techstack" class="techstack">
+        <div class="cont">
+            <div class="header">
+                <h2>TechStack</h2>
+            </div>
+            <div class="body">
+                <p><a href="#">HTML</a></p>
+                <p><a href="#">CSS</a></p>
+                <p><a href="#">JavaScript</a></p>
+                <button class="reset">close</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="top">
+            <div class="logo-details">
+                <div class="logo_name">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="contact"><p>Where to Find me</p></div>
+                    <div class="details">Visakhapatnam, Andhra Pradesh,<br>India, 531055.</div>                    
+                </div>
+                <div class="logo_name">
+                    <i class="fas fa-envelope"></i>
+                    <div class="contact"><p>email me at</p></div>
+                    <div class="details" style="text-transform: none;">B519018@iiit-bh.ac.in<br>prashanthdmp@gmail.com</div>
+                </div>
+                <div class="logo_name">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="contact"><p>contact me at</p></div>
+                    <div class="details">+91 9182380030</div>
+                </div>
+            </div>
+            <div class="media-icons">
+                <a href="https://www.linkedin.com/in/prashanth-dasari-151685196"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/prassu10"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/D.PRASSU"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/prassu_dasari"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/prassu_dasari"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <span class="copyright_text">Copyright © 2022 &nbsp;&nbsp;|&nbsp;&nbsp; Design by <a href="#">Prashanth</a>|</span>
+            <span class="policy_terms"><a href="#info">Scroll to top <i class="fas fa-arrow-up"></i></a></span>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script  src="./script.js"></script>
+</body>
+</html>
