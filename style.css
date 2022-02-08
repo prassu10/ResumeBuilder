@@ -48,10 +48,12 @@ input:focus,textarea:focus {
     width: max-content;
     color:black
 }
+
 .btn{
     text-align: center;
     margin: 2px;
 }
+
 button{
     width: 150px;
     background-color: white;
