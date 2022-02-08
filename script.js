@@ -23,7 +23,6 @@ TextEditor(inputfields["academics"]).then(nEditor=>{
 })
 
 
-
 function toggle(){
     if(inputShow){
          inputfields.style.display = "none"
